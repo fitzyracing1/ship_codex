@@ -1,0 +1,6 @@
+unit1:001001001:state_active
+unit2:010101:state_active
+unit3:0010101:state_active
+unit4:0010101:state_active
+unit5:001001001:state_active
+unit6:010010:state_active

@@ -1,0 +1,6 @@
+- hosts: edge_devices
+  vars:
+    resource_limit: 0.333  # m = 1/3
+  tasks:
+    - name: Set CPU limit
+      shell: "echo 'cpulimit --limit=$((resource_limit * 100))' > /edge/config"
